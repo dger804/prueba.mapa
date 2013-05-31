@@ -18,8 +18,6 @@ and open the template in the editor.
     
     </head>   
     
-    
-    
     <body onload="initialize()" onunload="GUnload()">    
         <?php 
         session_start();
@@ -30,8 +28,6 @@ and open the template in the editor.
             
         ?>
         
-        
-       
        <script type="text/javascript"> 
         var map; 
         var geocoder; 
@@ -145,10 +141,10 @@ and open the template in the editor.
         infowindow.open(map,marker); 
         }); 
         } 
-</script>   
+    </script>   
            <div class="login-help">
-                        <p><a href="logout.php">Salir</a></p>
-                    </div>     
+                <p><a href="logout.php">Salir</a></p>
+           </div>     
            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> 
             <div id="map"> 
             <div id="map_canvas"></div> 

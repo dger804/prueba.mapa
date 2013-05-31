@@ -6,9 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="css/estilo.css" media="all">
         <title></title>
-        
-        
-        
+         
     </head>
     <body>
         
@@ -22,19 +20,15 @@
                     </form>
             </div>
  
-  <div class="login-help">
-    <p>No posee cuenta? registrate <a href="registro.php">AQUI</a>.</p>
-    <p>usuario por defecto=admin:pass=admin </p>
-    <iframe src="http://www.facebook.com/plugins/like.php?locale=es_ES&href=http://testbuscador.260mb.org/login.php&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;font=trebuchet+ms&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
-  </div>
-</div>
+            <div class="login-help">
+                <p>No posee cuenta? registrate <a href="registro.php">AQUI</a>.</p>
+                <p>usuario por defecto=admin:pass=admin </p>
+                <iframe src="http://www.facebook.com/plugins/like.php?locale=es_ES&href=http://testbuscador.260mb.org/login.php&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;font=trebuchet+ms&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+            </div>
+        </div>
         
-        
-      
         <?php
       
-
-        
         session_start();
         include_once "conexion.php";
         

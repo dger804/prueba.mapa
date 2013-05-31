@@ -37,8 +37,7 @@ and open the template in the editor.
                   <p><a href="login.php">Volver</a></p>
                   </div>
                 <?php
-                
-                
+                 
             }
             else
             {
